@@ -1,5 +1,3 @@
-# Todolistiosapp
-
 --> Everything in js happens inside an execution context.
 
 # Execution context
@@ -41,3 +39,14 @@ Everything stores here in key value pair
 --> scope in js is directly related to lexical environment.
 --> Lexical environment is the local memory along with lexical environment of the parent.(lexical--> sequential)
 --> way of finding reference of var or functions is called as scope chain.
+
+# let & const 
+
+--> yes they are hoisted .
+--> They are in temporal dead zone(time between it is hoisted and value is defined).
+--> They are not stored in global space. 
+--> const initialization and declaration occurs in same line
+
+* Reference error -> try to access variable in temporal dead zone or not defined.
+* Type error -> if const declaration and initialization happens in different line;
+* Syntax error -> if only const declaration is there.
